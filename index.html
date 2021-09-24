@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Countdown Timer</title>
+</head>
+
+	<div class="question">
+
+		<h1>Countdown</h1>
+
+		<section class="tipCount">
+			<label for="countdown">Tip of countdown:</label>
+			<select name="countdown" id="countdown" required>
+			  <option value="" selected disabled >--Select--</option>
+			  <option value="New Year" >New Year</option>
+			  <option value="Birthday" >Birthday</option>
+			</select>
+		</section>
+
+		<section class="whatDate">
+			<label for="date">Set date:</label>
+			<input type="date" name="date" id='date' disabled />
+		</section>
+
+		<section>
+			<label for="date">Set time:</label>
+			<input type="time" class="ti" disabled />
+		</section>
+
+		<section class="btn">
+			<button class="inactive" disabled >Start count</button>
+		</section>
+
+	</div>
+
+	<div id="paige">
+		<h1 id="timeFor"></h1>
+		<section id="conteinerForTime">
+			<div class="time">
+				<p class="countTime days">0</p>
+				<span class="text">days</span>
+			</div>
+			<div class="time">
+				<p class="countTime hours">0</p>
+				<span class="text">hours</span>
+			</div>
+			<div class="time">
+				<p class="countTime minutes">0</p>
+				<span class="text">minutes</span>
+			</div>
+			<div class="time">
+				<p class="countTime seconds">0</p>
+				<span class="text">seconds</span>
+			</div>
+		</section>
+	</div>
+
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

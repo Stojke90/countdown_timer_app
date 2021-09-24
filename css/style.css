@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", Roboto, sans-serif;
+    font-size: 16px;
+    background-image: linear-gradient(to left bottom, #5953e9, #6661e2, #726eda, #7d7ad1, #8886c8, #788cc6, #6d91bf, #6994b7, #4892a9, #348e93, #3a8877, #4d805a);;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p{
+    color: orange;
+    text-shadow: 0 0 7px white;
+}
+
+span {
+    color: tomato;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-shadow: 0 0 3px white;
+}
+
+h1{
+    font-family: monospace;
+    font-size: 4rem;
+    color: #ffa017fc;
+    font-style: oblique;
+}
+
+#paige {
+    text-align: center;
+    width: 80%;
+    margin: 5rem auto;
+    display:none;
+}
+
+#conteinerForTime {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5rem 2rem;
+}
+
+.time {
+    width: 25%;
+    text-align: center;
+}
+
+.countTime {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.question {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid thin blue;
+    padding: 1rem;
+    width: 50%;
+    margin: 6% auto;
+    box-shadow: inset 0 0 20px 400px #1208a847, 0 0 9px 1px black;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
+
+.question > section {
+    margin: 1.8rem auto;
+}
+.inactive {
+    padding: 0.5rem;
+    border-radius: 10px;
+    cursor: no-drop;
+}
+.active {
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: darkorange;
+    cursor: pointer;
+
+}
